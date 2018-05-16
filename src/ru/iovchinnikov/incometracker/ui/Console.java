@@ -12,6 +12,7 @@ public class Console implements CoreWorker {
         // -a | --add <sum>: add a sum (insert to DB)
         // -s | --show [<period> | all]: print entries for a given period or all entries (select)
         // -m | --more <args>: TODO determine args
+        //TODO create enum for commands for more flexibility
 
         // chech if args are valid
         boolean isMore = "-m".equals(args[0]) || "--more".equals(args[0]);
