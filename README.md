@@ -15,7 +15,7 @@ java -jar yaap.jar
 	
 ### contribution guidelines
 * feel free to contribute to this repo, especially if you found bugs;
-* feel free to make code-reviews;
+* feel free to make code-reviews, but make sure not to use javadoc, i hate it;
 * feel free to make improvements of this repo;
 * feel free to use this repo as you want.
 
