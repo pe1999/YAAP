@@ -7,12 +7,13 @@ public class Console implements CoreWorker {
     private static final String ERROR_PREFIX = "user inetrface error: ";
     private static final String ERROR_POSTFIX = " type -? for help.";
 
-    public Console(String[] args) {
+    public Console(String[] args, boolean forced) {
         // here we could have only commands
+        // -f: service flag, that shows graphics failure (-g key found, but X failed)
         // -a | --add <sum>: add a sum (insert to DB)
         // -s | --show [<period> | all]: print entries for a given period or all entries (select)
-        // -m | --more <args>: TODO determine args
-        //TODO create enum for commands for more flexibility
+        // -m | --more <args>: todo determine args
+        //todo create enum for commands for more flexibility
 
         // chech if args are valid
         boolean isMore = "-m".equals(args[0]) || "--more".equals(args[0]);

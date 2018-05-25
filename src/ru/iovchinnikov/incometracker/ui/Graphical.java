@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Graphical extends JFrame {
 
-    public Graphical(String[] args) {
+    public Graphical(String[] args, boolean forced) {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(500, 0, 400, 400);
         setVisible(true);
